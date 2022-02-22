@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>COP'INFOR - </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="copyright" content="3wcom" />
+    <meta name="author" content="3wcom" />
+    <meta name="language" content="fr" />
+    <meta http-equiv="content-language" content="fr" />
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+        
+    
+    <!-- CSS Font -->
+    <!-- CSS link -->
+    <!--
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter:400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    
+    
+    <!--<link href="/website/views/layouts/template/css/yamm.css" rel="stylesheet" type="text/css" />-->
+    
+    <!-- Jscript -->
+    <!--[if lte IE 8]>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <![endif]-->
+    
+    <!--[if (!IE)|(gt IE 8)]><!-->
+        <script src="/website/views/layouts/template/extern/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <!--<![endif]-->
+    
+    <!-- bootstrap select 1.9.4 -->
+    <link rel="stylesheet" href="/website/views/layouts/template/extern/bootstrap-select.min.css"/>
+    <script type="text/javascript" src="/website/views/layouts/template/extern/bootstrap-select.min.js"></script>
+            
+    <script src="/website/views/layouts/template/extern/bootstrap.min.js" type="text/javascript"></script>
+        
+    <!-- bootstrap datepicker 1.5.1 
+    <link rel="stylesheet" href="/website/views/layouts/template/extern/bootstrap-datepicker.css"/>
+    <script type="text/javascript" src="/website/views/layouts/template/extern/bootstrap-datepicker.js"></script>
+    -->  
+    
+    <!--<script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>-->
+    <!--<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js" type="text/javascript"></script>-->   
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type='text/javascript' src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+    
+<!--        <script type="text/javascript" src="/website/views/layouts/template/js/slick/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/website/views/layouts/template/js/slick/slick.min.js"></script>
+    <script src="/website/views/layouts/template/js/jquery.blueberry.js"></script>
+    <script src="/website/views/layouts/template/js/jquery.backstretch.min.js"></script>
+    <script type="text/javascript" src="/website/views/layouts/template/js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="/website/views/layouts/template/js/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="/website/views/layouts/template/js/jquery.scrollTo-1.4.2-min.js"></script>
+    <script src="/website/views/layouts/template/calendar/zabuto_calendar.js"></script>  Resource jQuery 
+     <link rel="stylesheet" href="/website/views/layouts/template/calendar/zabuto_calendar.css">  Resource style -->
+    
+    <!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>-->         
+    
+    <link href="/website/views/layouts/template/extern/animate.min.css" media="screen" rel="stylesheet" type="text/css" >    <link href="/website/views/layouts/template/css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/website/views/layouts/template/js/perso.js"></script>
+</head>    <body id="pageDefault">
+        <header>
+          
+    <div class="container-fluid firstHeader">
+        <div class="container">
+            <div class="row vertical-align">
+                <div class="hidden-xs col-sm-4">&nbsp;</div>
+                <div class="col-xs-6 col-sm-4 header-logo">
+                                        <a href="/">
+                        <img class="img-responsive img-center" src="/header/logo-header.png">
+                    </a>
+                </div>
+                <div class="hidden-xs col-sm-2">&nbsp;</div>       
+                <div class="col-xs-6 col-sm-2 header-espace-client">
+                    <a href="#" class="button btn-espace-client">Espace client</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid secondHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="yamm navbar"><nav id="custom-bootstrap-menu" class="navbar navbar-default" role="navigation">
+  <div class="container-fluid" ><div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"  >
+          <ul class="nav navbar-nav">
+      <li id="menu-item-1" class="dropdown "><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>la Bureautique autrement</span></a><ul class="dropdown-menu"><li id="menu-item-1-1" class="dropdown sousmenu-1"><a href="/fr/la-bureautique-autrement/votre-metier-nos-savoirs-faire" class=""><span>Votre métier ... Nos savoirs faires</span></a></li><li id="menu-item-1-2" class="dropdown sousmenu-1"><a href="/fr/la-bureautique-autrement/nos-contrats" class=""><span>Nos Contrats</span></a></li><li id="menu-item-1-3" class="dropdown sousmenu-1"><a href="/fr/la-bureautique-autrement/eco-responsabilite" class=""><span>L'éco-responsabilité</span></a></li><li id="menu-item-1-4" class="dropdown sousmenu-1"><a href="/fr/la-bureautique-autrement/engagements-associatifs" class=""><span>Nos engagements associatifs</span></a></li></ul></li><li id="menu-item-2" class="dropdown onRolow"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Nos métiers</span></a><ul class="dropdown-menu"><li id="menu-item-2-1" class="dropdown dropdown-submenu sousmenu-1"><span><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Impression&nbsp;Numérisation</span><ul class=""><li class="sousmenu-2"><a href="/fr/nos-metiers/materiel-d-impression-numerisation/multifonction-couleur-et-noir-et-blanc" class=""><span>Multifonction couleur et noir et blanc</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/materiel-d-impression-numerisation/imprimantes" class=""><span>Imprimantes</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/materiel-d-impression-numerisation/traceurs-scenners-grand-format" class=""><span>Traceur et Scanneur &nbsp;grand format</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/materiel-d-impression-numerisation/numerisation-avancee" class=""><span>Numérisation avancée</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/materiel-d-impression-numerisation/presse-numerique-scanner-de-production" class=""><span>Presses&nbsp;numériques&nbsp;et Scanner&nbsp;de&nbsp;production</span></a></li></ul></li><li id="menu-item-2-2" class="dropdown dropdown-submenu sousmenu-1"><span><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Solutions d'impressions</span><ul class=""><li class="sousmenu-2"><a href="/fr/nos-metiers/solutions-impression-midi-pyrenees/audit-de-parc" class=""><span>Audit&nbsp;de&nbsp;parc</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/solutions-impression-midi-pyrenees/archivage-electronique" class=""><span>Archivage&nbsp;électronique</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/solutions-impression-midi-pyrenees/suivi-couts-regles-impression" class=""><span>Coûts&nbsp;et&nbsp;règles d'impression</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/solutions-impression-midi-pyrenees/traitements-documentaires" class=""><span>Traitement documentaire</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/solutions-impression-midi-pyrenees/travaux-a-distance" class=""><span>Impression&nbsp;à&nbsp;distance et BAT</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/solutions-impression-midi-pyrenees/solution-de-fax-avancee" class=""><span>Solution de fax avancé</span></a></li></ul></li><li id="menu-item-2-3" class="dropdown dropdown-submenu sousmenu-1"><span><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Matériel Informatique</span><ul class=""><li class="sousmenu-2"><a href="/fr/nos-metiers/materiel-informatique/materiel-et-maintenance-informatique" class=""><span>Matériel&nbsp;et&nbsp;Maintenance informatique</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/materiel-informatique/audit-informatique" class=""><span>Audit Parc informatique</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/materiel-informatique/gestion-des-serveurs" class=""><span>Gestion des serveurs</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/materiel-informatique/projecteurs-et-tableaux-interactifs" class=""><span>Projecteurs et tableaux interactifs</span></a></li></ul></li><li id="menu-item-2-4" class="dropdown dropdown-submenu sousmenu-1"><span><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Logiciels Informatiques</span><ul class=""><li class="sousmenu-2"><a href="/fr/nos-metiers/logociels/solution-de-gestion-commerciale" class=""><span>Solution&nbsp;de&nbsp;gestion commerciale et d'encaissement</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/logociels/sauvegarde-securite-informatique" class=""><span>Solution sécurité informatique</span></a></li><li class="sousmenu-2"><a href="/fr/nos-metiers/logociels/partenaire-agree-sage" class=""><span>Partenaire&nbsp;agréé&nbsp;SAGE ligne PE</span></a></li></ul></li></ul></li><li id="menu-item-3" class="dropdown "><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Nouvelles technologies</span></a><ul class="dropdown-menu"><li id="menu-item-3-1" class="dropdown sousmenu-1"><a href="/fr/nouvelles-technologies/materiel-nouvelle-generation" class=""><span>Matériel nouvelle génération</span></a></li><li id="menu-item-3-2" class="dropdown sousmenu-1"><a href="/fr/nouvelles-technologies/stochage-cloud-espace-dedie" class=""><span>Stockage Cloud espace dédié</span></a></li><li id="menu-item-3-3" class="dropdown sousmenu-1"><a href="/fr/nouvelles-technologies/hp-mobility" class=""><span>HP mobility</span></a></li><li id="menu-item-3-4" class="dropdown sousmenu-1"><a href="/fr/nouvelles-technologies/impression-3d" class=""><span>Impression 3D</span></a></li></ul></li><li id="menu-item-4" class="dropdown "><a href="/fr/maintenance" class="" ><span>Maintenance</span></a></li><li id="menu-item-5" class="dropdown "><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Une équipe d'expert bureautique</span></a><ul class="dropdown-menu"><li id="menu-item-5-1" class="dropdown sousmenu-1"><a href="/fr/equipe-expert-bureautique/equipe" class=""><span>L'Equipe et son histoire</span></a></li><li id="menu-item-5-2" class="dropdown sousmenu-1"><a href="/fr/equipe-expert-bureautique/partenaires" class=""><span>Partenaires et Agréments</span></a></li><li id="menu-item-5-3" class="dropdown sousmenu-1"><a href="/fr/equipe-expert-bureautique/mobilier-de-bureau" class=""><span>Mobilier de bureau</span></a></li></ul></li><li id="menu-item-6" class="dropdown "><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Contact</span></a><ul class="dropdown-menu"><li id="menu-item-6-1" class="dropdown sousmenu-1"><a href="/fr/contact/contactez-nous" class=""><span>Contactez-nous</span></a></li><li id="menu-item-6-2" class="dropdown sousmenu-1"><a href="/fr/contact/cop-infor-recrute" class=""><span>Cop Infor recrute</span></a></li></ul></li></ul>      
+    </div><!-- /.navbar-collapse -->
+</div></nav></div>
+<script>
+    $(document).ready(function(){
+        if ($(window).width() > 768) {
+            $('#bs-example-navbar-collapse-1 >ul.nav.navbar-nav >li#menu-item-2 > ul').hide();
+            
+            $('ul.nav li.dropdown').hover(function() {
+              $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(200);
+            }, function() {
+              $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(200);
+            });
+        }
+    }); 
+</script>                </div>
+             </div>
+        </div>
+    </div>
+            <style>
+    /* Animation delays */
+.carousel-caption {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+} 
+.carousel-caption h1 {
+    -webkit-animation-delay: 1.0s;
+    animation-delay: 1.0s;
+} 
+.carousel-caption h2{
+    -webkit-animation-delay: 2.0s;
+    animation-delay: 2.0s;
+}
+.img-over-slider img {
+    -webkit-animation-delay: 3.0s;
+    animation-delay: 3.0s;
+}
+    </style>    
+    <div class="carousel-container">
+        <div id="carousel-header" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">                 <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-header" data-slide-to="0" class="active"></li>                </ol>
+        
+        
+                <div class="carousel-inner" role="listbox">                    
+                                        <div class="item active" >
+                            <img src="/materiel-impression/slide-numerisation-materiel-pro-lot.jpg" alt="carrousel">
+                                                            <div class="carousel-caption" data-animation="animated bounceInLeft" data-sr="enter left and move 30% over 0.9s wait 0.1s"> 
+                                    <div class="full-width"><h1 data-animation="animated bounceInLeft" data-sr="enter left and move 30% over 1s wait 1s">UNE EQUIPE ET DU MATERIEL PROFESSIONNEL</h1></div>
+                                    <div class="full-width"><h2 data-animation="animated bounceInLeft" data-sr="enter left and move 30% over 1s wait 2s">au service de vos projets</h2></div>
+                                </div>
+                                                                                </div>
+                                        </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-header" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-header" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+        
+                
+                        
+        </div> <!-- fin carousel-header -->
+        <!--
+        <div>
+            <img class="img-responsive header-telephone" src="/website/views/layouts/template/images/header/telephone.png">
+        </div>
+        -->
+    </div>
+    </header>
+        <div class="contenu">
+        <div id="defaut" class="container-fluid nopadding">
+    <div class="pimcore_area_block-fond pimcore_area_content"><section class="area-block-areablock-fond" >
+    <div class="col-xs-12 nopadding background-fluid-first">
+        <div class="container background-first">
+            <div class="row">
+                <div class="pimcore_area_block-titre-couleurs pimcore_area_content"><section class="area-block-accueil">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h1 class="titrePage color-title-first" >NOS IMPRIMANTES</h1>
+    </div>
+</section>
+</div><div class="pimcore_area_block-sous-titre-couleurs pimcore_area_content"><section class="area-block-sous-titre-couleurs">
+    <div class="col-xs-12">
+        <h2 class="sousTitre color-title-first" >Cop’infor assure aussi un contrat de maintenance sur les imprimantes éligibles au contrat imprimante à la page.</h1>
+    </div>
+</section>
+</div><div class="pimcore_area_block-texte pimcore_area_content">
+<section class="area-block-texte-petit" >
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="contentTexte"><p><strong><span style="font-size:24px;">IMPRIMANTES EPSON</span></strong></p>
+</div>
+      </div> 
+</section></div><div class="pimcore_area_block-texte-texte pimcore_area_content"><section id="area-block-texte-texte-62138bfa52e12" class="area-block-texte-texte clear" >
+            <div class="col-xs-12 col-md-4" >
+                        <div id="backgroundColorTexte_1603197070" class="backgroundColorTexte" >
+             <p style="text-align: center;"><span style="font-size:18px;"><a href="https://www.epson.fr/products/printers/" target="_blank"><strong>Imprimantes jet d'encre</strong></a></span></p>
+
+<p style="text-align: center;"><img src="/materiel-impression/imprimantes/imprimante-jet-encre-epson.jpg" style="width:400px;" /></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;">Les imprimantes jet d'encre d'Epson offrent des solutions pour consommateurs, photographes et partenaires professionnels.</span></p>
+            </div>
+        </div>
+            <div class="col-xs-12 col-md-4" >
+                        <div id="backgroundColorTexte_1603197070" class="backgroundColorTexte" >
+             <p style="text-align: center;"><span style="font-size:18px;"><a href="http://www.epson.fr/fr/fr/viewcon/corporatesite/cms/index/1008" target="_blank"><strong>Imprimantes laser</strong></a></span></p>
+
+<p style="text-align: center;"><img src="/materiel-impression/imprimantes/imprimante-laser-epson.jpg" style="width:400px;" /></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;">La série d’imprimantes Laser Epson propose des imprimantes pour les petits et les grands groupes de travail, avec des prix à la page avantageux et une imprimante multifonctions pour les petites entreprises.</span></p>
+            </div>
+        </div>
+            <div class="col-xs-12 col-md-4" >
+                        <div id="backgroundColorTexte_1603197070" class="backgroundColorTexte" >
+             <p style="text-align: center;"><span style="font-size:18px;"><a href="http://www.epson.fr/fr/fr/viewcon/corporatesite/cms/index/1010" target="_blank"><strong>Imprimantes matricielles à impact</strong></a></span></p>
+
+<p><img src="/materiel-impression/imprimantes/imprimante-matricielle-epson.jpg" style="width:400px;" /></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;">Etant l’un des plus grands fabricants d'imprimantes à aiguilles, Epson propose une gamme de produits avec des solutions parfaitement au point pour une impression rapide, économique et fiable, dans une qualité durable sur tous types de supports papier.</span></p>
+            </div>
+        </div>
+            <script>
+        $( document ).ready(function() {
+            var elt = $("#area-block-texte-texte-62138bfa52e12 >div >div.backgroundColorTexte");
+            var elt_img = elt.find('img');
+            var imageTotal = elt_img.length;
+            if (imageTotal > 0) {
+                var imageCount = 0;        
+                elt_img.load(function(){if(++imageCount == imageTotal) majBlocHauteur(elt);});                    
+            } else {
+                majBlocHauteur(elt);
+            }
+        });
+    </script>
+    </section>
+ </div><div class="pimcore_area_block-texte-texte pimcore_area_content"><section id="area-block-texte-texte-62138bfa550f2" class="area-block-texte-texte clear" >
+            <div class="col-xs-12 col-md-6" >
+                        <div id="backgroundColorTexte_552977235" class="backgroundColorTexte" >
+             <p style="text-align: center;"><span style="font-size:18px;"><a href="http://www.konicaminolta.fr/fr/solutions-dentreprise/produits-et-applications/systemes-dimpression-office/multifonctions/imprimantes-avec-contrat-de-services.html" target="_blank"><span style="color:#FFF0F5;">IMPRIMANTES KONICA MINOLTA</span></a></span></p>
+
+<p style="text-align: center;"><img src="/website/var/tmp/image-thumbnails/0/1449/thumb__auto_850904660de984af948beee3aee98a4f/konica-minolta-copinfor.jpeg" style="width:600px;" /></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size:22px;"><a href="http://www.konicaminolta.fr/fr/solutions-dentreprise/produits-et-applications/systemes-dimpression-office/multifonctions/imprimantes-avec-contrat-de-services.html" target="_blank"><span style="color: rgb(255, 240, 245);">&nbsp;Imprimantes A4</span></a><span style="color: rgb(255, 240, 245);"> </span></span></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;">&nbsp;</p>
+            </div>
+        </div>
+            <div class="col-xs-12 col-md-6" >
+                        <div id="backgroundColorTexte_552977235" class="backgroundColorTexte" >
+             <p style="text-align: center;"><span style="font-size:18px;">IMPRIMANTES KYOCERA</span></p>
+
+<p style="text-align: center;"><span style="font-size:18px;"><img src="/website/var/tmp/image-thumbnails/0/1450/thumb__auto_850904660de984af948beee3aee98a4f/kyocera-copinfor.jpeg" style="width:600px;" /><span style="font-size:20px;">&nbsp;</span></span></p>
+
+<p style="text-align: center;"><span style="font-size:20px;"><a href="http://www.kyoceradocumentsolutions.fr/index/produits/Monochrome.html" target="_blank"><span style="color: rgb(255, 240, 245);">Imprimantes A4 monochromes</span></a><span style="color: rgb(255, 240, 245);">&nbsp; </span></span></p>
+
+<p style="text-align: center;"><span style="font-size:20px;"><a href="http://www.kyoceradocumentsolutions.fr/index/produits/A4_Colour_Printers.html" target="_blank"><span style="color: rgb(255, 240, 245);">Imprimantes A4 couleur</span></a><span style="color: rgb(255, 240, 245);"> </span></span></p>
+
+<p style="text-align: center;"><span style="font-size:20px;"><a href="http://www.kyoceradocumentsolutions.fr/index/produits/A3_Monochrome_Printers.html" target="_blank"><span style="color: rgb(255, 240, 245);">Imprimantes A3 monochromes</span></a><span style="color: rgb(255, 240, 245);">&nbsp; </span></span></p>
+
+<p style="text-align: center;"><span style="font-size:20px;"><a href="http://www.kyoceradocumentsolutions.fr/index/produits/A3_Colour_Printers.html" target="_blank"><span style="color: rgb(255, 240, 245);">Imprimantes A3 couleur</span></a></span><strong> </strong></p>
+            </div>
+        </div>
+            <script>
+        $( document ).ready(function() {
+            var elt = $("#area-block-texte-texte-62138bfa550f2 >div >div.backgroundColorTexte");
+            var elt_img = elt.find('img');
+            var imageTotal = elt_img.length;
+            if (imageTotal > 0) {
+                var imageCount = 0;        
+                elt_img.load(function(){if(++imageCount == imageTotal) majBlocHauteur(elt);});                    
+            } else {
+                majBlocHauteur(elt);
+            }
+        });
+    </script>
+    </section>
+    <style>
+                #backgroundColorTexte_552977235 {
+            background-color: #0060a5;
+            padding:10px;
+        }
+                
+                #backgroundColorTexte_552977235 p, 
+        #backgroundColorTexte_552977235 ul {
+            color: #ffffff;
+        }
+            </style> 
+ </div>            </div>
+        </div>
+    </div>
+</section>
+
+</div></div>
+        </div>
+        <footer>
+    <div class="firstFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 footer-logo" >
+                                        <a href="/">
+                        <img class="logo-footer" src="/header/logo-header.png">
+                    </a>
+                </div>
+				<!--<div class="col-xs-12 footer-link" >
+				<ul class="tmp"> -->
+								<div class="col-xs-12 col-sm-3 footer-various-link" >
+					<h4 class="title"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Impression&nbsp;Numérisation</h4>
+					<!--<li><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Impression&nbsp;Numérisation-->
+						<ul>
+										<li><a href="/fr/nos-metiers/materiel-d-impression-numerisation/multifonction-couleur-et-noir-et-blanc">Multifonction couleur et noir et blanc</a></li>
+										<li><a href="/fr/nos-metiers/materiel-d-impression-numerisation/imprimantes">Imprimantes</a></li>
+										<li><a href="/fr/nos-metiers/materiel-d-impression-numerisation/traceurs-scenners-grand-format">Traceur et Scanneur &nbsp;grand format</a></li>
+										<li><a href="/fr/nos-metiers/materiel-d-impression-numerisation/numerisation-avancee">Numérisation avancée</a></li>
+										<li><a href="/fr/nos-metiers/materiel-d-impression-numerisation/presse-numerique-scanner-de-production">Presses&nbsp;numériques&nbsp;et Scanner&nbsp;de&nbsp;production</a></li>
+										</ul>
+					</li>
+				</div>
+								<div class="col-xs-12 col-sm-3 footer-various-link" >
+					<h4 class="title"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Solutions d'impressions</h4>
+					<!--<li><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Solutions d'impressions-->
+						<ul>
+										<li><a href="/fr/nos-metiers/solutions-impression-midi-pyrenees/audit-de-parc">Audit&nbsp;de&nbsp;parc</a></li>
+										<li><a href="/fr/nos-metiers/solutions-impression-midi-pyrenees/archivage-electronique">Archivage&nbsp;électronique</a></li>
+										<li><a href="/fr/nos-metiers/solutions-impression-midi-pyrenees/suivi-couts-regles-impression">Coûts&nbsp;et&nbsp;règles d'impression</a></li>
+										<li><a href="/fr/nos-metiers/solutions-impression-midi-pyrenees/traitements-documentaires">Traitement documentaire</a></li>
+										<li><a href="/fr/nos-metiers/solutions-impression-midi-pyrenees/travaux-a-distance">Impression&nbsp;à&nbsp;distance et BAT</a></li>
+										<li><a href="/fr/nos-metiers/solutions-impression-midi-pyrenees/solution-de-fax-avancee">Solution de fax avancé</a></li>
+										</ul>
+					</li>
+				</div>
+								<div class="col-xs-12 col-sm-3 footer-various-link" >
+					<h4 class="title"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Matériel Informatique</h4>
+					<!--<li><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Matériel Informatique-->
+						<ul>
+										<li><a href="/fr/nos-metiers/materiel-informatique/materiel-et-maintenance-informatique">Matériel&nbsp;et&nbsp;Maintenance informatique</a></li>
+										<li><a href="/fr/nos-metiers/materiel-informatique/audit-informatique">Audit Parc informatique</a></li>
+										<li><a href="/fr/nos-metiers/materiel-informatique/gestion-des-serveurs">Gestion des serveurs</a></li>
+										<li><a href="/fr/nos-metiers/materiel-informatique/projecteurs-et-tableaux-interactifs">Projecteurs et tableaux interactifs</a></li>
+										</ul>
+					</li>
+				</div>
+								<div class="col-xs-12 col-sm-3 footer-various-link" >
+					<h4 class="title"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Logiciels Informatiques</h4>
+					<!--<li><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Logiciels Informatiques-->
+						<ul>
+										<li><a href="/fr/nos-metiers/logociels/solution-de-gestion-commerciale">Solution&nbsp;de&nbsp;gestion commerciale et d'encaissement</a></li>
+										<li><a href="/fr/nos-metiers/logociels/sauvegarde-securite-informatique">Solution sécurité informatique</a></li>
+										<li><a href="/fr/nos-metiers/logociels/partenaire-agree-sage">Partenaire&nbsp;agréé&nbsp;SAGE ligne PE</a></li>
+										</ul>
+					</li>
+				</div>
+								<!--
+				</ul>
+				</div>
+				-->
+            </div>
+        </div>
+    </div>
+    <div class="secondFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 footerAdresse" >© 2016, Cop’Infor. tous droits réservés.</div>
+                <div class="col-xs-12 web-3wcom">
+                    Réalisé par <a href="https://airmob-digital.com" target="_blank"><span style="color:#000;">Airmob Digital</span></a>, groupe <a href="https://airmob.net" target="_blank"><span style="color:#000;">Airmob</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="/website/views/layouts/template/extern/demo.js"></script>    </body>
+</html>
+
